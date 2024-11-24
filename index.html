@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Voting Machine</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+<b><u><h1>Mini Voting Machine</h1></u></b>
+<img src="https://media.geeksforgeeks.org/wp-content/uploads/20230803111937/Online-Voting-System.webp"height="350px"><br>
+
+<h3>Voting in elections is one of the most fundamental organs of any Democracy and in the modern world,</h3> <h3>voting is done through digital machines. In this article, we will try to write a simple Online Voting System using C programming language.</h3>
+    <b><u><hr><h2>Features of Online Voting System in C</h2></u></b>
+        <h3>The online voting system offers the following functions:</h3>
+        
+       <h3>1.  Taking a Vote from the User</h3>
+        <h3>2. Storing Different Votes</h3>
+        <h3>3. Calculating Votes</h3>
+       <h3>4.  Declaring Results</h3><br><hr>
+      <h1><u> Components of Online Voting System</u></h1>
+<h2>The Online Voting System program has the following components:</h2>
+
+<h2>1. Header Files and Macro Definitions</h2>
+<h3>This program makes use of only two standard header files <stdio.h> and <string.h>.</h3>
+<h3>We have also defined a macro to represent the maximum number of candidates.</h3><hr>
+<h2>2. Structure with name "Candidate"</h2>
+<h3>The structure with the name "Candidate" is defined to store the information of the candidate. It has the following fields:</h3>
+
+<h3>name Array: This array of characters is used to store the name of the candidate.</h3>
+<h3>symbol: This character variable stores the symbol allotted to the candidate.</h3>
+<h3>votes: This variable is used to store the number of votes that the given candidate received.</h3><hr>
+<h2>3. Data Structures and Variables with Global Scope</h2>
+<h3>Some of the data structures and variables are declared inside the global scope to avoid scope problems and make them available to all the functions in the program. These are:
+
+allCandidate[]: This array stores all the candidates.</h3>
+<h3>candidateCount: It is used to store the number of candidates.</h3>
+<h3>symbol[]: This array is used to store all the symbols.</h3>
+<h3>symbolTaken[]: Used to keep track of the symbols that are already allotted to some candidate.</h3><hr>
+<h2>4. Functions to Perform Different Tasks</h2>
+<h3>Various functions are used in the program to provide modularity to the code. They are named based on the task they are performing:</h3>
+
+<h3>fillCandidate(): This function is used to take user input about the candidate details and store them in the allCandidate[] array.</h3>
+<h3>displayAllCandidates(): This function is used to display all available candidates while the voting is being performed.</h3>
+<h3>getVotes(): This function is used to take the votes from the user and store them in the structure for the given candidate.</h3>
+<h3>getResults(): After the voting, the getResults() function is used to calculate the votes and declare the results of the elections</h3><br><hr>
+ <a href="vote.c"> Program</a><br> 
+ <a href="https://www.programiz.com/online-compiler/0YuoVInjOt1HY" >Output</a><br><hr>
+ <h1 style="color: red;">My Web development projects</h1><div id="keeru">
+    <h3><a href="https://shramajeevi.github.io/https---github.com-SHRAMAJEEVI-MANIKANT-M.B/">First Web development</a></h3>
+<h3 style="color: white;"><a href="https://shramajeevi.github.io/Emergency-call/">Second Web development</a></h3>
+<h3 style="color: white;"><a href="https://shramajeevi.github.io./web/">Third Web development</a></h3>
+<h3 style="color: white;"><a href="https://shramajeevi.github.io/SSIT-College/">Fourth Web development</a></h3>
+<h3 style="color: white;"><a href="https://shramajeevi.github.io/Rock-Paper-Scissors/">Fifth Web development</a></h3></div>
+
+
+   <a href="mailto:bankollermanikanta@gmail.com" ><button>Contact me</button></a>
+
+   </a>
+<footer>
+    <div id="navbar">
+    <a href="https://WWW.linkedin.com/in/manikanta-bankoller-490b8b294">Linkedin</a>
+    <a href="https://WWW.instagram.com/_manikant._.7?igsh=aG04ZGF1eGUya2Vx">Instagram</a>
+<a href="https://t.me/+918904879098">Telegram</a>
+    </div>
+ 
+</body>
+</html>
